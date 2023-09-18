@@ -1,0 +1,104 @@
+.navbar {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	background-color: transparent;
+	z-index: 999;
+}
+
+.container {
+	max-width: 1440px;
+	padding: 20px 50px 20px 0;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbarImg {
+	width: 14.5rem;
+}
+
+.navbarImg img {
+	width: 100%;
+	height: 100%;
+}
+
+.navbarItem {
+	font-size: 20px;
+	color: #010103;
+	text-transform: capitalize;
+	font-weight: 700;
+	transition: 0.3s all;
+}
+
+.navbarItem:hover {
+	color: #0b44cd;
+}
+
+.navbarItems {
+	display: flex;
+	gap: 2.1rem;
+}
+
+.navbarSign {
+	display: flex;
+	align-items: center;
+	gap: 2.5rem;
+}
+
+.navbarSignin,
+.navbarRegister {
+	cursor: pointer;
+}
+
+.navbarRegister {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 168px;
+	height: 44px;
+	border-radius: 12px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.43;
+	background-color: #3470ff;
+	border: none;
+	cursor: pointer;
+	transition: background-color 250ms linear;
+	box-shadow: 0 8px 12px 0 rgba(86, 84, 241, 0.35);
+	transition: all 0.3s;
+}
+
+.navbarRegister:hover {
+	box-shadow: 0 10px 15px 0 rgba(86, 84, 241, 0.5);
+	background-color: #0b44cd;
+}
+
+.title {
+	font-family: "Montseray", sans-serif;
+	color: #3470ff;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.33;
+}
+
+.link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	font-family: "Montseray", sans-serif;
+	color: #121417;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.33;
+	transition: color 250ms linear;
+}
+
+.link:hover {
+	color: #0b44cd;
+}
